@@ -4,7 +4,7 @@ const lines = fs.readFileSync('day7.txt', { encoding: 'utf8' }).split('\n')
 //   'abba[mnop]qrst', // yes
 //   'abcd[bddb]xyyx', // no
 //   'aaaa[qwer]tyui', // no
-//   'ioxxoj[asdfgh]zxcvbn' // no
+//   'ioxxoj[asdfgh]zxcvbn' // yes
 // ]
 let count = 0
 lines.forEach(line => {
