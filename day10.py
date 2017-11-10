@@ -129,6 +129,7 @@ def runmain():
   with open('day10.txt', 'r') as f:
     for line in f:
       factory.interpret(line)
+  print(str(factory.bins['0'][0] * factory.bins['1'][0] * factory.bins['2'][0]))
 
 def ensurekey(obj, key, default):
   if key not in obj:
